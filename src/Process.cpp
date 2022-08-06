@@ -75,7 +75,7 @@ void ProdeceInvertFromForward2(string file){
 	int k = 0;
 	for(auto i : res){
 		k++;
-		inverted_file100<<i.first<<'\t';
+		inverted_file100<<i.first;
 		inverted_file100<<endl;
 		if(k == 100) break;
 	}
@@ -83,7 +83,7 @@ void ProdeceInvertFromForward2(string file){
 	k = 0;
 	for(auto i : res){
 		k++;
-		inverted_file500<<i.first<<'\t';
+		inverted_file500<<i.first;
 		inverted_file500<<endl;
 		if(k == 500) break;
 	}
@@ -230,7 +230,7 @@ void ProduceInvertFromHot(int num_IN,int num_Doc)
 		{
 		shuffle(ch.begin(),ch.end(),e1);//打乱数组元素
 		
-		int m=n(e0);
+		int m=n(e0);//m为生成id的数目
 		if(m>num_Doc/2)
 		{
 			i--;
