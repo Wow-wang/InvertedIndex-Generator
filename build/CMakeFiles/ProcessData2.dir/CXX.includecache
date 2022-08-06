@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/node11/ProcessForOXT/src/Process.cpp
+fstream
+-
+iostream
+-
+stdio.h
+-
+random
+-
+algorithm
+-
+vector
+-
+map
+-
+set
+-
+stdio.h
+-
+unordered_map
+-
+

@@ -1,0 +1,3 @@
+/home/node11/ProcessForOXT/build/CMakeFiles/rebuild_cache.dir
+/home/node11/ProcessForOXT/build/CMakeFiles/ProcessData.dir
+/home/node11/ProcessForOXT/build/CMakeFiles/edit_cache.dir
